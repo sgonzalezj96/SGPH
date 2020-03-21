@@ -1,0 +1,43 @@
+.example-card {
+    max-width: 400px;
+    background-color: #CED8F6;
+    margin: auto auto;
+    border-radius: 10%;
+  }
+  
+  .example-header-image {
+    background-image: url("../../../assets/Foto.jpg");
+    background-size: cover;
+  }
+  .list-container{
+     width:700px; 
+     margin-top:0px !;
+  }
+  .photo_profile {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.mat-card-image {
+  border-radius: 10%;
+}
+.mat-card-header .mat-card-title {
+  color:#3f51b5;
+}
+.mat-card-image {
+  width: calc(100% );
+  height: calc(100%);
+  margin: 16px -16px 16px 0px;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  color:#3f51b5;
+}
+.mat-card-actions {
+  display: flex;
+  justify-content: center;
+}

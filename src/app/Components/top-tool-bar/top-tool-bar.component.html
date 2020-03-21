@@ -1,0 +1,29 @@
+<mat-toolbar color="primary" class="top-toolbar">
+        <mat-toolbar-row>
+            <span class="options" routerLink="/home">
+                <mat-icon svgIcon="home-icon" aria-hidden="false" aria-label="Example thumbs up SVG icon" class="icons_options" routerLink="/home"></mat-icon>
+                &nbsp;SGPH
+            </span>
+
+            <span class="options" *ngIf=autorizado routerLink="/home/crearnoticia">
+                <i class="material-icons">
+                        add_circle
+                </i>
+                 &nbsp;Crear Noticia
+            </span>
+
+            <span class="options" routerLink="/home/CreateUser" *ngIf=autorizado>
+                <i class="material-icons">
+                    supervised_user_circle
+                </i>
+                 &nbsp;Crear Usuario
+            </span>
+
+            <span class="options-e" (click) = "logOut()">
+                <i class="material-icons">
+                    highlight_off
+                </i>
+                    &nbsp;Salir
+            </span>
+        </mat-toolbar-row>
+</mat-toolbar>

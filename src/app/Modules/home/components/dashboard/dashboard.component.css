@@ -1,0 +1,18 @@
+.example-container {
+    position: absolute;
+    background-color: #F2F2F2;
+  }
+  .user-sidenav{
+    width: 320px ;
+    background-color: #EFEDF2;
+  }
+  .informacion-sidenav{
+    width: 260px;
+    background-color: #EFEDF2;
+  }
+  .principal-container {
+    background-color: #EFEDF2;
+  }
+  .pp-container {
+    background-color: #EFEDF2;
+  }

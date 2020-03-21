@@ -1,0 +1,16 @@
+<app-top-tool-bar></app-top-tool-bar>
+
+  <br class="pp-container">
+  <mat-sidenav-container class="example-container">
+      <mat-sidenav opened mode="side" class="user-sidenav">
+        <app-userprofile></app-userprofile>
+      </mat-sidenav>
+      <mat-sidenav opened mode="side" position="end" class="informacion-sidenav">
+          <app-informacion></app-informacion>
+      </mat-sidenav>
+      <div class="principal-container">
+      <router-outlet></router-outlet>
+      </div>
+  </mat-sidenav-container>
+
+

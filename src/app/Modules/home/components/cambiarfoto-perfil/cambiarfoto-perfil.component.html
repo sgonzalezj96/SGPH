@@ -1,0 +1,32 @@
+<div class="list-container" >
+        <mat-card class="user-card" >        
+            <mat-card-header>
+                <mat-card-title>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="material-icons">
+                            add_a_photo
+                    </i>
+                    &nbsp;
+                    Cambiar Foto De perfil</mat-card-title>   
+            </mat-card-header>
+            <br>
+            <br>
+            <br>
+            <mat-card-content>
+            <br>
+            <br>
+                <label class="file">
+                    seleccionar Archivo
+                    <input type="file" (change)= "upload($event)" />
+                </label>
+            <br>
+            <br>
+            </mat-card-content>
+            <br>
+            <br>
+            <mat-card-footer>
+                <mat-progress-bar value = "uploadPercent" mode="determinate" color = "#3f51b5" *ngIf="cargando"></mat-progress-bar>
+            </mat-card-footer>
+        </mat-card>
+</div>

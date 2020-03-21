@@ -1,0 +1,23 @@
+.user-container {
+    width:700px; 
+    height: 510px;
+}
+.user-card {
+    max-width: 400px;
+    background-color: #CED8F6;
+    margin: auto auto;
+    border-radius: 10%;
+}
+.mat-form-field {
+    width: 100%;
+    min-width: 300px;
+}
+.mat-card-title,.mat-card-content {
+    display: flex;
+    justify-content: center;
+    color: #3f51b5;
+}
+.butoncreate {
+    width: 100%;
+    background-color: #3f51b5;
+}
